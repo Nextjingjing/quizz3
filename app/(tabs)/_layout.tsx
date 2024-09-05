@@ -35,7 +35,7 @@ export default function TabLayout() {
       <Tabs.Screen
         name="tts"
         options={{
-          title: 'text_to_speach',
+          title: 'Text to speach',
           tabBarIcon: ({ color, focused }) => (
             <TabBarIcon name={focused ? 'code-slash' : 'code-slash-outline'} color={color} />
           ),
